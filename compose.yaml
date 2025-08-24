@@ -1,0 +1,13 @@
+﻿services:
+  deliveroudis:
+    image: deliveroudis
+    build:
+      context: .
+      dockerfile: Deliveroudis/Dockerfile
+
+  webapi:
+    image: webapi
+    build:
+      context: .
+      dockerfile: WebApi/Dockerfile
+
